@@ -64,12 +64,11 @@ namespace
 
     void paintCircles(Mat &image, const Circles &circles)
     {
-        for(size_t i = 0; i < circles.size(); i++)
+        for(auto c : circles)
         {
-            Point center(cvRound(circles[i][0]), cvRound(circles[i][1]));
-            int radius = cvRound(circles[i][2]);
-            circle(image, center, 3, Scalar(0,255,0), -1, 8, 0);
-            circle(image, center, radius, Scalar(0,0,255), 3, 8, 0);
+            Circle cir = getCircle(c);
+            circle(image, cir.center, 3, Scalar(0,255,0), -1, 8, 0);
+            circle(image, cir.center, cir.radius, Scalar(0,0,255), 3, 8, 0);
         }
     }
 }
