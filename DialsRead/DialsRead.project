@@ -102,5 +102,7 @@
     <File Name="ImageReader.cpp"/>
     <File Name="Utils.h"/>
     <File Name="Utils.cpp"/>
+    <File Name="GaugeReader.h"/>
+    <File Name="GaugeReader.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>

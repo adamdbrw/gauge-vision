@@ -4,7 +4,7 @@ using namespace cv;
 
 namespace
 {
-    const std::string debugImageFile = "dial1.jpeg";
+    const std::string debugImageFile = "dial3.jpeg";
 }
 
 Mat ImageReader::readNextImage() const

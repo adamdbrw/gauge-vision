@@ -2,7 +2,7 @@
 
 using namespace cv;
 
-void DebugDisplay::showImage(const std::string &nameRaw, const Mat image, Point lt)
+void DebugDisplay::showImage(const std::string &nameRaw, const Mat image, Point lt) const
 {
     //printf("Show window at %d %d\n", x, y);
     const int size = 200;
@@ -19,7 +19,7 @@ void DebugDisplay::showImage(const std::string &nameRaw, const Mat image, Point 
     moveWindow(name, lt.x * (size+xmargin) + initialX, lt.y * (size+ymargin) + initialY);
 }
 
-void DebugDisplay::displayValue(double percentValue, Point ltPosition)
+void DebugDisplay::displayValue(double percentValue, Point ltPosition) const
 {
     Mat textwin = Mat::zeros(250,250,CV_8UC3);
     rectangle(textwin, Point(40,20), Point(60, 180), Scalar(255,255,255), CV_FILLED);

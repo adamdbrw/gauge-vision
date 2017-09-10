@@ -10,8 +10,9 @@ set(PROJECT_PATH "${CMAKE_SOURCE_DIR}/DialsRead")
 
 
 #{{{{ User Code 1
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 #}}}}
 
 include_directories(
@@ -43,6 +44,7 @@ set ( CXX_SRCS
     ${CMAKE_SOURCE_DIR}/DialsRead/DebugDisplay.cpp
     ${CMAKE_SOURCE_DIR}/DialsRead/ImageReader.cpp
     ${CMAKE_SOURCE_DIR}/DialsRead/Utils.cpp
+    ${CMAKE_SOURCE_DIR}/DialsRead/GaugeReader.cpp
 )
 
 set_source_files_properties(
