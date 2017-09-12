@@ -1,5 +1,6 @@
 # gauge-vision
-Digitalising pointer gauge readings using machine vision.
+Digitalising pointer gauge readings using machine vision. A gauge circle is detected, and then a pointer. From that, an angle is calculated. Scale or values are not read from the gauge. Instead, a configuration specifying min and max values as well as dead zone is applied. 
+
 The project is only starting and library is for research purposes only right now.
 
 # Examples of outputs
