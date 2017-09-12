@@ -3,14 +3,11 @@ Digitalising pointer gauge readings using machine vision.
 The project is only starting and library is for research purposes only right now.
 
 # Examples of outputs
-![Gauge](/images/dial3.jpeg?raw=true "Gauge")
-![Gauge with marked pointer](/Examples/pointer.jpg?raw=true "Pointer")
-![Gauge value bar](/Examples/textwin.jpg?raw=true "Digitalized value")
+<img src="images/dial3.jpeg?" height="200" width="200"><img src="Examples/binary.jpg?" height="200" width="200"><img src="Examples/pointer.jpg?" height="200" width="200"><img src="Examples/textwin.jpg?" height="200" width="200">
 
-![Gauge](/images/dial4.jpeg?raw=true "Gauge")
-![Gauge with marked pointer](/Examples/pointer2.jpg?raw=true "Pointer")
-![Gauge value bar](/Examples/textwin2.jpg?raw=true "Digitalized value")
-
+<!--
+/<img src="images/dial4.jpeg?" height="200" width="200"><img src="Examples/binary2.jpg?" height="200" width="200"><img src="Examples/pointer2.jpg?" height="200" width="200"><img src="Examples/textwin2.jpg?" height="200" width="200">
+-->
 # requirements
 Requires OpenCV (tested for 3.0, should work with other versions)
 
